@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab8114d8d9532284ba30d54c0d97873f
+guid: f234ba082c94c8b42b17c0cc82ce539f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button_heal_pressed_0
+      name: healthbar_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24785c164767b4f4f958721944d2b0b3
-      internalID: 452087793
+      spriteID: 18fc92e3cc7530e43b7e5e78fdde5975
+      internalID: -390638535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_heal_pressed_1
+      name: healthbar_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51003ecc0346e3f4cbfc829ac5fccf6f
-      internalID: -1010132223
+      spriteID: 1e6b29aa0cfb8b4458966232a178a4e9
+      internalID: -34603066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_heal_pressed_2
+      name: healthbar_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,29 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bcf8663823c922418c173300c754415
-      internalID: 919931856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: button_heal_pressed_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a819e4ff891e4794ea87763a962fe34b
-      internalID: -1089777115
+      spriteID: 38924636021eaa8448fad09b4ba5c98a
+      internalID: 1719185895
       vertices: []
       indices: 
       edges: []
@@ -202,7 +181,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: fd1d829a002bf9345a5cac9e747b753f
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +189,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      button_heal_pressed_0: 452087793
-      button_heal_pressed_2: 919931856
-      button_heal_pressed_1: -1010132223
-      button_heal_pressed_3: -1089777115
+      healthbar_2: 1719185895
+      healthbar_0: -390638535
+      healthbar_1: -34603066
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
