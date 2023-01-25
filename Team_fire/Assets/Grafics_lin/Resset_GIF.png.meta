@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 027675bbb29ccfc48a4fd7727e5a76cd
+guid: b42fd5564ed3ece45abc8179d18cfc3b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -38,7 +38,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_0"
+      name: Resset_GIF_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a200f86655fda7468ace6da92ca7c2a
-      internalID: 2136591428
+      spriteID: 3ad33fcdc022a2a47a1252db3bb10e9a
+      internalID: 2098491131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_1"
+      name: Resset_GIF_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,62 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed2ae96404b8a548bc549406c9533bf
-      internalID: -442732328
+      spriteID: d2b4ec9b97420b14d9c9f1299d4d7dd7
+      internalID: 673595856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_2"
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdc04f0a48a87ec4eb55b9968b270749
-      internalID: -987987194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_3"
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e22a343ade9c0664bb82a9c43cd9a935
-      internalID: 1144507319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_4"
+      name: Resset_GIF_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ca0685fa64dd0447a159dff1a0588f9
-      internalID: 347052613
+      spriteID: e8f5a8b2d2cbf314681ff61ca94995e6
+      internalID: 112931743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_5"
+      name: Resset_GIF_3
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0687eb4df0e4951468d85f614f871b4d
-      internalID: 19062421
+      spriteID: dd241c7d616e3d64683e42e8cbc09f38
+      internalID: -1064856163
       vertices: []
       indices: 
       edges: []
@@ -244,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 9989135d4974b2745aa430cd4c54da1b
     internalID: 0
     vertices: []
     indices: 
@@ -252,12 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Namnl\xF6st-1_5": 19062421
-      "Namnl\xF6st-1_2": -987987194
-      "Namnl\xF6st-1_0": 2136591428
-      "Namnl\xF6st-1_1": -442732328
-      "Namnl\xF6st-1_3": 1144507319
-      "Namnl\xF6st-1_4": 347052613
+      Resset_GIF_0: 2098491131
+      Resset_GIF_3: -1064856163
+      Resset_GIF_2: 112931743
+      Resset_GIF_1: 673595856
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a88ae5635bef5848bb5ddaa3df98eb5
+guid: c22b680878c69ea4d99008aeec5e36ba
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -38,7 +38,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: strab ang oange_0
+      name: Tilesheet_Team_fire_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 64
-        height: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d7da23da7666214d8fb33ba53c25ab7
-      internalID: -1393083999
+      spriteID: 3c7c11a981bfaf4428690b896b08db33
+      internalID: -1585436789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: strab ang oange_1
+      name: Tilesheet_Team_fire_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ce0efe9c6c3bb844a281df63c53ede7
-      internalID: -418029642
+      spriteID: 7953a979e02eb5e4a9cfe3953cb6fd80
+      internalID: -519711492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet_Team_fire_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ecf8ad79d3bc044b49657e561f6ce4
+      internalID: 1275583051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet_Team_fire_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c132076f07146c4489146b262b2e11e1
+      internalID: 1444594646
       vertices: []
       indices: 
       edges: []
@@ -160,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 873dcbf92df0db749ae6b6d822d7dfbe
     internalID: 0
     vertices: []
     indices: 
@@ -168,8 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      strab ang oange_1: -418029642
-      strab ang oange_0: -1393083999
+      Tilesheet_Team_fire_1: -519711492
+      Tilesheet_Team_fire_3: 1444594646
+      Tilesheet_Team_fire_2: 1275583051
+      Tilesheet_Team_fire_0: -1585436789
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
